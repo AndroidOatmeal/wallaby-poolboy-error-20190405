@@ -43,7 +43,7 @@ defmodule TestProject14.MixProject do
       {:gettext, "~> 0.11"},
       {:jason, "~> 1.0"},
       {:plug_cowboy, "~> 2.0"},
-      {:wallaby, "~> 0.22.0", [runtime: false, only: :test]}
+      {:wallaby, "0.19.2", [runtime: false, only: :test]}
     ]
   end
 
