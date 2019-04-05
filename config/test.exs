@@ -19,7 +19,8 @@ config :test_project_1_4, TestProject14.Repo,
   hostname: "localhost",
   pool: Ecto.Adapters.SQL.Sandbox
 
-config :logger, level: :debug,
-  handle_otp_reports: true,
-  handle_sasl_reports: true
+config :logger, level: :warn,
+                handle_otp_reports: true,
+                handle_sasl_reports: true
+
 
